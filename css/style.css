@@ -25,25 +25,44 @@ main{
     font-size: 1rem;
     font-family: 'Inclusive Sans', sans-serif ;
  }
+
+ /* COLONNE */
+
  .sezione1{
     margin: 1rem;
+    font-family: 'inclusive Sans', sans-serif;
+    color: white;
  }
- /* COLONNE */
- .colonna{
-    width: calc(100% / 3);
+ .prima-riga::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+.seconda-riga::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.colonna{
+    width: calc(100% / 4);
     float: left;
     text-align: left;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    background-color: midnightblue;
+    margin: 1rem;
 }
 img{
     max-width: 30%;
 }
 .foto{
-    float: left;
+    float: left
 }
-
-
-
+.email{
+    color: deepskyblue;
+}
 
  /* /COLONNE */
 
