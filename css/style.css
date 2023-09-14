@@ -25,6 +25,28 @@ main{
     font-size: 1rem;
     font-family: 'Inclusive Sans', sans-serif ;
  }
+ .sezione1{
+    margin: 1rem;
+ }
+ /* COLONNE */
+ .colonna{
+    width: calc(100% / 3);
+    float: left;
+    text-align: left;
+    margin-top: 4rem;
+}
+img{
+    max-width: 30%;
+}
+.foto{
+    float: left;
+}
+
+
+
+
+ /* /COLONNE */
+
 
 
 /* /MAIN */
