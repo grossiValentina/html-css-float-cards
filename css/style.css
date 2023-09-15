@@ -47,7 +47,7 @@ main{
 }
 
 .colonna{
-    width: calc(100% / 4);
+    width: calc(100% / 3 - 6rem);
     float: left;
     text-align: left;
     margin-top: 3rem;
@@ -55,10 +55,13 @@ main{
     margin: 1rem;
 }
 img{
-    max-width: 30%;
+    max-width: 100px;
 }
 .foto{
     float: left
+    
+    
+
 }
 .email{
     color: deepskyblue;
